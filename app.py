@@ -12,7 +12,7 @@ import os
 import base64
 
 
-file_ = open("IMAGES\\rec.gif", "rb")
+file_ = open("IMAGES/rec.gif", "rb")
 contents = file_.read()
 data_url = base64.b64encode(contents).decode("utf-8")
 file_.close()
@@ -20,10 +20,10 @@ file_.close()
 st.title("NEXT WORD PREDICTOR >>")
 
 #loading the pre-trained weights and model architecture
-model = tf.keras.models.load_model('MODELS\AUTO_COM_model.h5')
+model = tf.keras.models.load_model('MODELS/AUTO_COM_model.h5')
 
 #dataset preprocessing
-file = open("DATA\\Goodwill.txt").read() #opeining the dataset and reading from it
+file = open("DATA/Goodwill.txt").read() #opeining the dataset and reading from it
 
 tokenizer = Tokenizer() #tokenizing the dataset
 data = file.lower().split("\n") #converting dataset to lowercase
@@ -88,7 +88,7 @@ if choice == "AUTO COMPLETE":
 
 else:
   st.header("NAVANEETH")
-  me = Image.open(os.path.join('IMAGES\\m2.jpeg'))
+  me = Image.open(os.path.join('IMAGES/m2.jpeg'))
   st.image(me)
   st.write("REACH ME AT :")
   st.write("[LINKEDIN](https://www.linkedin.com/in/navaneethan-s-a527571b7/)")
