@@ -1,6 +1,6 @@
 ## AUTO_COMPLETE_STREAMLIT
 
-- Lazy of typing the whole sentence?? Use my AUTO COMPLETION app. But the output won't be that accurate LOL😅. My model was trained on just 3500 lines of text. (just to learn the model building and deployment)
+- Lazy of typing the whole sentence?? Use my <b>TEXT AUTO COMPLETION<b> app. But the output won't be that accurate LOL😅. My model was trained on just 3500 lines of text. (just to learn the model building and deployment)
 - UI - guarded by Streamlit.
 - This application was deployed to Streamlit Sharing.
 - <strong><b> APP LINK : https://share.streamlit.io/navaneethelite/auto_complete_streamlit/app.py</b></strong>
