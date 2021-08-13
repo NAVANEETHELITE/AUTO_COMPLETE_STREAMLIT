@@ -72,7 +72,7 @@ def next_word(seed):
         output_word = word
         break
     seed_text += " " + output_word
-    st.subheader('SENTENCE COMPLETION:')
+  st.subheader('SENTENCE COMPLETION:')
   st.subheader(seed_text)
 
 menu = ["AUTO COMPLETE", "ME"]
@@ -94,3 +94,4 @@ else:
   st.write("[LINKEDIN](https://www.linkedin.com/in/navaneethan-s-a527571b7/)")
   st.write("[EMAIL](mailto:navaneethanselvakumar@gmail.com)")
   st.write("[INSTAGRAM](https://www.instagram.com/_navneeth_/)")
+
