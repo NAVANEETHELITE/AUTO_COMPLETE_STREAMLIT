@@ -72,7 +72,7 @@ def next_word(seed):
         output_word = word
         break
     seed_text += " " + output_word
-  st.subheader('SENTENCE COMPLETION:')
+  st.header('SENTENCE COMPLETION:')
   st.subheader(seed_text)
 
 menu = ["AUTO COMPLETE", "ME"]
