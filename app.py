@@ -23,7 +23,7 @@ st.title("NEXT WORD PREDICTOR >>")
 model = tf.keras.models.load_model('MODELS/AUTO_COM_model.h5')
 
 #dataset preprocessing
-file = open("DATA/Goodwill.txt").read() #opeining the dataset and reading from it
+file = open("DATA/data.txt").read() #opeining the dataset and reading from it
 
 tokenizer = Tokenizer() #tokenizing the dataset
 data = file.lower().split("\n") #converting dataset to lowercase
