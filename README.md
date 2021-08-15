@@ -40,7 +40,7 @@ streamlit run app.py
 ```
 - Your app will be hosted in the local server.
 - Then deploy the app to Heroku or some other platforms you like!
-- This app was deployed to Streamlit Sharing. (Request for the invite to deploy the app wait for atmost 12 hours)
+- This app was deployed to Streamlit Sharing. (Request for the invite to deploy the app and wait for atmost 12 hours)
 - The home page of the web app is shown below:
 <div class="row">
     <img src="OUTPUT.png" title='HomePage' alt="index" style="width:30%">
