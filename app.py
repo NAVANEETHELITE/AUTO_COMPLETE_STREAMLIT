@@ -73,7 +73,7 @@ def next_word(seed):
         break
     seed_text += " " + output_word
   st.header('SENTENCE COMPLETION:')
-  st.subheader(seed_text)
+  st.success(seed_text)
 
 menu = ["AUTO COMPLETE", "ME"]
 choice = st.sidebar.selectbox("Menu",menu)
